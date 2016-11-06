@@ -4,12 +4,12 @@ set -g status-attr bright
 set -g status-right-length 50
 set -g status-left-length 50
 
-# default window title colors (unactive win)
+# default window title colors (inactive window)
 set-window-option -g window-status-fg colour238
 set-window-option -g window-status-bg default
 set-window-option -g window-status-attr bright
 
-# active window title colours (active win)
+# active window title colours (active window)
 set-window-option -g window-status-current-fg white
 set-window-option -g window-status-current-bg default
 set-window-option -g window-status-current-attr bright
