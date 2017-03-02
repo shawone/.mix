@@ -20,7 +20,7 @@ export PAGER="less -isM"                                        # man pages edit
 export GREP_COLORS='mt=01;34:fn=01;34:ln=04;31:bn=30:se=33'
 
 alias grep='grep --color=auto'
-alias emacs='emacs -nw -Q'
+alias emacs='emacs -nw'
 alias ls='ls -F --color=auto --hide="*~"'
 alias la='ls -a'
 alias ll='ls -sh1'
